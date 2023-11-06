@@ -30,30 +30,30 @@ const Navbar = () => {
         {/*Mobile menu */}
 
         <ul className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 flex flex-col justify-center items-center '} >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Inicio
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             Sobre mi
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Habilidades
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Trabajo
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contacto

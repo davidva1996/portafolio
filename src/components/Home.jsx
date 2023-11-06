@@ -15,8 +15,7 @@ const Home = () => {
          Front-end developer
       </h2>
       <p className='text-[#8892b0] py-4 max-w-[700px]'>
-      Soy desarrollador Front-End, destaco en el desarrollo de plantillas en diversas tecnologías. Estoy en formación 
-      continua para lograr ser un desarrollador full stack.
+      Soy desarrollador Front-End, destaco en el desarrollo de plantillas en diversas tecnologías. Estoy en formación en ingenieria de software
       </p>
       <div>
         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>

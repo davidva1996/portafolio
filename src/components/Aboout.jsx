@@ -16,9 +16,9 @@ const Aboout = () => {
               <p>Hola!  un gusto en conocerlos.</p>
             </div>
             <div>
-              <p> Soy tecnólogo en sistemas de información, estoy en formación de la  ingeniería de software, mi experiencia se ha desarrollado desde
-                 el diseño y desarrollo de plantillas para paginas web (las puedes ver en la opción proyectos) y aplicaciones web responsive. 
-                 ¿Te gusta? ¿Te interesa el trabajo que realizo? Escribe, deja tu mensaje. ¡Trabajemos Juntos!        
+              <p> Tecnólogo en Sistemas de Información en constante evolución hacia la Ingeniería de Software. Mi trayectoria se ha forjado a través del diseño y desarrollo de  páginas web (¡puedes ver ejemplos en la sección de Proyectos!), así como la creación de aplicaciones web altamente responsivas.
+
+¿Te entusiasma lo que ves? ¿Te interesa el trabajo que realizo? ¡No dudes en ponerte en contacto y dejar tu mensaje! ¡Juntos podemos dar vida a tus proyectos! 
               </p>  
             </div>
           </div>
