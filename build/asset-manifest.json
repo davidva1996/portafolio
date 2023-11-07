@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/portafolio/build/static/css/main.2e913371.css",
-    "main.js": "/portafolio/build/static/js/main.d5588f07.js",
+    "main.js": "/portafolio/build/static/js/main.95071941.js",
     "static/media/Restaurante.png": "/portafolio/build/static/media/Restaurante.96652307d69e560558dc.png",
+    "static/media/auto.png": "/portafolio/build/static/media/auto.60d8b0e8482d660b6bab.png",
     "static/media/Viajes.png": "/portafolio/build/static/media/Viajes.78783daa430cdaf7d386.png",
     "static/media/Juego.png": "/portafolio/build/static/media/Juego.131953a1c1807939015e.png",
+    "static/media/banco.png": "/portafolio/build/static/media/banco.9d8518a11936a1f1e5f9.png",
     "static/media/react.png": "/portafolio/build/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/analisis_datos.png": "/portafolio/build/static/media/analisis_datos.2478cc640c6b2276ed13.png",
     "static/media/python3.png": "/portafolio/build/static/media/python3.520031e8cff48202542c.png",
     "static/media/mysql2.png": "/portafolio/build/static/media/mysql2.57f47da8755fa3213f0b.png",
     "static/media/node.png": "/portafolio/build/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/tareas_app.png": "/portafolio/build/static/media/tareas_app.d69f5b7cbf2903e22690.png",
+    "static/media/clima.png": "/portafolio/build/static/media/clima.b7f92fab9ae08557607c.png",
     "static/media/github.png": "/portafolio/build/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portafolio/build/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portafolio/build/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -22,10 +24,10 @@
     "static/media/angular.png": "/portafolio/build/static/media/angular.edaa1cf36dee329804c2.png",
     "index.html": "/portafolio/build/index.html",
     "main.2e913371.css.map": "/portafolio/build/static/css/main.2e913371.css.map",
-    "main.d5588f07.js.map": "/portafolio/build/static/js/main.d5588f07.js.map"
+    "main.95071941.js.map": "/portafolio/build/static/js/main.95071941.js.map"
   },
   "entrypoints": [
     "static/css/main.2e913371.css",
-    "static/js/main.d5588f07.js"
+    "static/js/main.95071941.js"
   ]
 }
