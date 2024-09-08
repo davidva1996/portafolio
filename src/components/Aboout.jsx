@@ -13,13 +13,12 @@ const Aboout = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hola!  un gusto en conocerlos.</p>
+              <p> Un gusto en conocerlos.</p>
             </div>
             <div>
-              <p> Tecnólogo en Sistemas de Información en constante evolución hacia la Ingeniería de Software. Mi trayectoria se ha forjado a través del diseño y desarrollo de  páginas web (¡puedes ver ejemplos en la sección de Proyectos!), así como la creación de aplicaciones web altamente responsivas.
-
-¿Te entusiasma lo que ves? ¿Te interesa el trabajo que realizo? ¡No dudes en ponerte en contacto y dejar tu mensaje! ¡Juntos podemos dar vida a tus proyectos! 
-              </p>  
+            <p> 
+              Me considero una persona comprometida, proactiva y apasionada por el aprendizaje continuo de nuevas habilidades y tecnologías. Me adapto fácilmente a nuevos retos y entornos de trabajo, siempre buscando mejorar mis conocimientos y perfeccionar mis competencias. Me involucro al 100% en cada proyecto, aportando energía, creatividad y una gran atención a los detalles, con el objetivo de ofrecer soluciones eficientes y de alta calidad. Disfruto colaborar en equipo y enfrentar desafíos que me permiten crecer tanto personal como profesionalmente.
+            </p>  
             </div>
           </div>
       </div>
