@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/build/static/css/main.2e913371.css",
-    "main.js": "/portafolio/build/static/js/main.95071941.js",
+    "main.css": "/portafolio/build/static/css/main.8e16eb46.css",
+    "main.js": "/portafolio/build/static/js/main.5adc1d26.js",
     "static/media/Restaurante.png": "/portafolio/build/static/media/Restaurante.96652307d69e560558dc.png",
     "static/media/auto.png": "/portafolio/build/static/media/auto.60d8b0e8482d660b6bab.png",
     "static/media/Viajes.png": "/portafolio/build/static/media/Viajes.78783daa430cdaf7d386.png",
@@ -23,11 +23,11 @@
     "static/media/javascript.png": "/portafolio/build/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/angular.png": "/portafolio/build/static/media/angular.edaa1cf36dee329804c2.png",
     "index.html": "/portafolio/build/index.html",
-    "main.2e913371.css.map": "/portafolio/build/static/css/main.2e913371.css.map",
-    "main.95071941.js.map": "/portafolio/build/static/js/main.95071941.js.map"
+    "main.8e16eb46.css.map": "/portafolio/build/static/css/main.8e16eb46.css.map",
+    "main.5adc1d26.js.map": "/portafolio/build/static/js/main.5adc1d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e913371.css",
-    "static/js/main.95071941.js"
+    "static/css/main.8e16eb46.css",
+    "static/js/main.5adc1d26.js"
   ]
 }
