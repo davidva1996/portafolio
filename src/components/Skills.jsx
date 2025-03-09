@@ -5,15 +5,10 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import SQL from '../assets/mysql2.png';
-import wordpress from '../assets/wordpress1.png'
-import Python from '../assets/python3.png'
 import bootstrap from '../assets/bootstrap.png'
-import angular from '../assets/angular.png'
-import git from '../assets/GIT.png'
+//  import angular from '../assets/angular.png'
+ import vtex from  '../assets/vtex-3.png'
 
 const Skills = () => {
   return (
@@ -39,41 +34,19 @@ const Skills = () => {
                 <p className='my-4'>JAVASCRIPT</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={wordpress} alt="HTML icon" />
-                <p className='my-4'>WORDPRESS</p>
-            </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                 <p className='my-4'>REACT</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={git} alt="HTML icon" />
-                <p className='my-4'>GIT</p>
-            </div>
-
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                <p className='my-4'>GITHUB</p>
-            </div>
-
+    
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
                 <p className='my-4'>NODE JS</p>
             </div>
 
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={SQL} alt="HTML icon" />
-                <p className='my-4'>MYSQL</p>
-            </div>
-
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                <p className='my-4'>FIREBASE</p>
-            </div>
-
+         
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                 <p className='my-4'>TAILWIND</p>
@@ -83,19 +56,19 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={bootstrap} alt="HTML icon" />
                 <p className='my-4'>BOOTSTRAP</p>
             </div>
+
+
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={vtex} alt="HTML icon" />
+                <p className='my-4'>Vtex</p>
+            </div> 
            
        
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
-                <p className='my-4'>PYTHON</p>
-            </div>
-
-     
-
+{/* 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={angular} alt="HTML icon" />
                 <p className='my-4'>ANGULAR</p>
-            </div>
+            </div> */}
 
           
 

@@ -68,14 +68,14 @@ const Navbar = () => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-gray-300'
 
-                    href="https://www.linkedin.com/in/david-vanegas-986721120/">
+                    href="https://www.linkedin.com/in/david-fernando-vanegas-marentes-986721120/">
                        Linkedin < FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a target="_blank"
+            <a target="_blank" rel="noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/davidva1996'
             >
               Github <FaGithub size={30} />
             </a>
