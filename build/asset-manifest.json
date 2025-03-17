@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portafolio/build/static/css/main.18a13d1d.css",
-    "main.js": "/portafolio/build/static/js/main.251add9e.js",
+    "main.css": "/portafolio/build/static/css/main.e6fdfc89.css",
+    "main.js": "/portafolio/build/static/js/main.a95a2427.js",
     "static/media/Restaurante.png": "/portafolio/build/static/media/Restaurante.96652307d69e560558dc.png",
     "static/media/auto.png": "/portafolio/build/static/media/auto.60d8b0e8482d660b6bab.png",
     "static/media/Viajes.png": "/portafolio/build/static/media/Viajes.78783daa430cdaf7d386.png",
+    "static/media/LOGO-2.png": "/portafolio/build/static/media/LOGO-2.dd94db3e5f5b79b77fcc.png",
     "static/media/Juego.png": "/portafolio/build/static/media/Juego.131953a1c1807939015e.png",
     "static/media/banco.png": "/portafolio/build/static/media/banco.9d8518a11936a1f1e5f9.png",
     "static/media/react.png": "/portafolio/build/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -16,11 +17,11 @@
     "static/media/css.png": "/portafolio/build/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portafolio/build/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portafolio/build/index.html",
-    "main.18a13d1d.css.map": "/portafolio/build/static/css/main.18a13d1d.css.map",
-    "main.251add9e.js.map": "/portafolio/build/static/js/main.251add9e.js.map"
+    "main.e6fdfc89.css.map": "/portafolio/build/static/css/main.e6fdfc89.css.map",
+    "main.a95a2427.js.map": "/portafolio/build/static/js/main.a95a2427.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a13d1d.css",
-    "static/js/main.251add9e.js"
+    "static/css/main.e6fdfc89.css",
+    "static/js/main.a95a2427.js"
   ]
 }
