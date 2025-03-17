@@ -17,7 +17,7 @@ const Aboout = () => {
             </div>
             <div>
             <p> 
-              Me considero una persona comprometida, proactiva y apasionada por el aprendizaje continuo de nuevas habilidades y tecnologías. Me adapto fácilmente a nuevos retos y entornos de trabajo, siempre buscando mejorar mis conocimientos y perfeccionar mis competencias. Me involucro al 100% en cada proyecto, aportando energía, creatividad y una gran atención a los detalles, con el objetivo de ofrecer soluciones eficientes y de alta calidad. Disfruto colaborar en equipo y enfrentar desafíos que me permiten crecer tanto personal como profesionalmente.
+            Soy una persona comprometida, proactiva y apasionada por el aprendizaje continuo de nuevas tecnologías y habilidades. Me adapto rápidamente a diferentes entornos y desafíos laborales, lo que me impulsa a perfeccionar constantemente mis competencias. Me involucro al 100% en cada proyecto, aportando energía, creatividad y una minuciosa atención a los detalles para ofrecer soluciones eficientes y de alta calidad. Además, disfruto colaborar en equipo y asumir retos que contribuyen a mi crecimiento personal y profesional.
             </p>  
             </div>
           </div>

@@ -3,23 +3,41 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import {FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {Link} from 'react-scroll'
+import logoPrincipal from '../assets/LOGO-2.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 border-b-4 border-gray-100 '>
-        <h2 className='font-bold'> David Vanegas </h2>
+<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 border-b-4 border-gray-100'>
+  <img src={logoPrincipal} alt="Logo David Vanegas" className="h-16" />
+
 
         {/*Menu*/}
 
-        <ul className='hidden md:flex'>
-            <li className='  hover:bg-pink-600 hover:border-pink-600' ><Link  to='home' smooth={true} duration={500}>Inicio</Link></li>
-            <li className='  hover:bg-pink-600 hover:border-pink-600' ><Link to='about' smooth={true} duration={500}>Sobre mi</Link></li>
-            <li className='  hover:bg-pink-600 hover:border-pink-600' ><Link to='skills' smooth={true} duration={500}>Habilidades</Link></li>
-            <li className='  hover:bg-pink-600 hover:border-pink-600' ><Link to='work' smooth={true} duration={500}>Proyectos</Link></li>
-            <li className='  hover:bg-pink-600 hover:border-pink-600' ><Link to='contact' smooth={true} duration={500}>Contacto</Link></li>
-        </ul>
+            {/* Menu Desktop */}
+      <ul className="hidden md:flex space-x-6">
+        {[
+          { name: "Inicio", to: "home" },
+          { name: "Sobre mí", to: "about" },
+          { name: "Habilidades", to: "skills" },
+          { name: "Proyectos", to: "work" },
+          { name: "Contacto", to: "contact" },
+        ].map((item, index) => (
+          <li key={index} className="relative group">
+            <Link
+              to={item.to}
+              smooth={true}
+              duration={500}
+              className="cursor-pointer font-semibold transition-all duration-300"
+            >
+              {item.name}
+            </Link>
+            {/* Línea animada debajo */}
+            <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-pink-600 transition-all duration-300 group-hover:w-full"></span>
+          </li>
+        ))}
+      </ul>
 
         {/*Hamburguer */}
 
@@ -29,37 +47,33 @@ const Navbar = () => {
 
         {/*Mobile menu */}
 
-        <ul className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 flex flex-col justify-center items-center '} >
-        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Inicio
-          </Link>
-        </li>
-        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            Sobre mi
-          </Link>
-        </li>
-        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Habilidades
-          </Link>
-        </li>
-        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Trabajo
-          </Link>
-        </li>
-        <li className='py-6 text-4xl hover:bg-pink-600 hover:border-pink-600'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contacto
-          </Link>
-        </li>
-        </ul>
+        <ul
+  className={`${
+    !nav ? "hidden" : "absolute"
+  } top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 flex flex-col justify-center items-center`}
+>
+  {[
+    { name: "Inicio", to: "home" },
+    { name: "Sobre mí", to: "about" },
+    { name: "Habilidades", to: "skills" },
+    { name: "Trabajo", to: "work" },
+    { name: "Contacto", to: "contact" },
+  ].map((item, index) => (
+    <li key={index} className="relative py-6 text-4xl group">
+      <Link
+        onClick={handleClick}
+        to={item.to}
+        smooth={true}
+        duration={500}
+        className="cursor-pointer font-semibold transition-all duration-300"
+      >
+        {item.name}
+      </Link>
+      {/* Línea animada debajo */}
+      <span className="absolute left-1/2 bottom-0 w-0 h-[3px] bg-pink-600 transition-all duration-300 group-hover:w-1/2 transform -translate-x-1/2"></span>
+    </li>
+  ))}
+</ul>
 
         {/* Social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

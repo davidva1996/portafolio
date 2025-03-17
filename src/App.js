@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import WhatsappButton from "./components/whatssapButton"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Aboout/>
      <Skills/>
      <Work/>
+     <WhatsappButton />
      <Contact/>
     </div>
   );

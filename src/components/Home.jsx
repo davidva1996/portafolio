@@ -15,7 +15,8 @@ const Home = () => {
          Front-end developer
       </h2>
       <p className='text-[#8892b0] py-4 max-w-[700px]'>
-      Soy un desarrollador web front-end con experiencia en tecnologías como React JS, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap 5, Git, MySQL, Python, GitHub, WordPress, Power BI y VTEX.
+      Soy un profesional Front-end Developer con amplia experiencia en el desarrollo de interfaces web modernas y responsivas. Dominio en React JS, HTML, CSS y JavaScript, experiencia en VTEX para soluciones de e-commerce integradas y aplico frameworks de estilos como Tailwind CSS y Bootstrap. Además Complemento mi perfil con habilidades en Business Intelligence utilizando Power BI.
+
       </p>
       <div>
         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
